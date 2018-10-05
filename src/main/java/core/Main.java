@@ -19,12 +19,12 @@ public class Main {
 
         JDABuilder builder = new JDABuilder(AccountType.BOT);
 
-        builder.setToken("<PLACE TOKEN HERE>");
+        builder.setToken("<TOKEN HERE>");
         builder.setAutoReconnect(true);
         
         
 
-        builder.setStatus(OnlineStatus.DO_NOT_DISTURB);
+        builder.setStatus(OnlineStatus.ONLINE);
         
         builder.addEventListener(new readyListener());
         builder.addEventListener(new botJoinListener());
