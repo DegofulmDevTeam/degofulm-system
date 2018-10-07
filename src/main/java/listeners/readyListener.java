@@ -19,7 +19,7 @@ public class readyListener extends ListenerAdapter {
 	
 	for(Guild g : event.getJDA().getGuilds()) {
 		
-		g.getTextChannels().get(0).sendMessage("Degofulm-System ist nun wieder online !").queue();
+		g.getTextChannels().get(0).sendMessage("Ich bin nun wieder online !").queue();
 	
 	}
 	}
