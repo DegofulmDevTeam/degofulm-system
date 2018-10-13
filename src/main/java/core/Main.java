@@ -15,6 +15,7 @@ import javax.security.auth.login.LoginException;
 import listeners.botJoinListener;
 import listeners.readyListener;
 import listeners.userJoinListener;
+import listeners.voiceListener;
 
 public class Main {
 
@@ -41,7 +42,7 @@ public class Main {
         builder.addEventListener(new readyListener());
         builder.addEventListener(new botJoinListener());
         builder.addEventListener(new userJoinListener());
-        
+        builder.addEventListener(new voiceListener());
         
         try {
             JDA jda = builder.buildBlocking();

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.sunrobindev</groupId>
   <artifactId>degosystem</artifactId>
-  <version>1.0-SNAPSHOT07102018A</version>
+  <version>1.0-SNAPSHOT13102018A</version>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
     <plugins>
